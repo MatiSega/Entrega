@@ -1,0 +1,164 @@
+.header{
+    display: flex;
+    background-color: rgb(90, 202, 90);
+    flex-wrap: nowrap;
+    flex-wrap: inherit;
+    align-items: center;
+}
+a:hover{color: red;
+}
+.header__titulo{margin: 0;
+    font-size: 50px;
+}
+.header__img{
+    position: relative;
+}
+.header__nav__ul{
+    margin: 20px auto 0 200px;
+}
+.header__nav__ul__item{
+    border-radius: 3px;
+    background-color: rgb(198, 241, 116);
+    font-size: 24px;
+    display:inline ;
+    
+}
+.header__nav__ul__item a{text-decoration: none;
+}
+.mb-3{
+    padding-right: 70%;
+}
+.fondo--contacto{
+    background-color: aquamarine;
+    padding-bottom: 50px;
+}
+.contacto{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+}
+#contenido{
+    background-color: aquamarine;
+    display: grid;
+}
+/* #contenido__productos{
+    display: grid; 
+} */
+.main__titulo{
+    margin:0 10 0 0
+}
+.main__div{
+    display: flex;
+    gap: 5px;
+}
+#main__div__productos{text-decoration: underline;    
+}
+.imgVivienda{
+    width: 100%;
+}
+.botones{
+    font-size: 50px;
+    color: black;
+    border: solid 5px black;
+    border-radius: 20px;
+    background-color: bisque;
+    font-family: sans-serif;
+}
+.main__div__parrafo span{
+    background-color: rgb(184, 150, 216);
+}
+.titular{
+    background-color: aquamarine;
+}
+
+.pie{
+    display: grid;
+    align-items: center;
+    background-color: rgb(90, 202, 90);
+    margin-top: 1px;
+    padding-top: 10px;
+}
+.pie a{
+    text-decoration: none;
+}
+@media (max-width: 576px )
+{ .header{
+    display: flex;
+    background-color: rgb(194, 197, 21);
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: row;
+}
+.header__nav__ul{
+    margin: 0;
+ }
+ #contenido{
+    background-color: aquamarine;
+    max-width: 100%;
+    border: 1%;
+    overflow: scroll;
+    display: grid;}
+.main__div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.main__div__img{ max-width: 100%;
+   
+}
+.main__div__parrafo{
+   max-width: 100%;
+
+}
+.main__div__parrafo__img{
+    max-width: 100%;
+}
+.main__div{
+    display: grid;
+    justify-content: flex-start;
+    gap: 5px;
+    
+}
+.fondo--contacto {
+    background-color: aquamarine;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.botones{
+    white-space: nowrap;
+}
+.contacto{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 5px;
+    flex-direction: row;
+}
+ .pie{
+    display: grid;
+    background-color: rgb(90, 202, 90);
+    margin-top: 1px;
+    padding-top: 10px;
+}
+.pie_a{
+    margin-right: 0px;
+    text-decoration: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
