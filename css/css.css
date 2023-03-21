@@ -120,10 +120,10 @@ a:hover{color: red;
     gap: 5px;
     
 }
-.fondo--contacto {
+.fondo__contacto {
     background-color: aquamarine;
     padding-bottom: 50px;
-    display: flex;
+    display: grid;
     flex-direction: row;
 }
 .botones{
